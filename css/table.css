@@ -1,0 +1,137 @@
+/* body {
+    background-color: rgb(80, 81, 79);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 550;
+    
+} */
+
+caption {
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-shadow: 1px, 1px, 1px, black;
+    font-weight: bold;
+}
+
+td:nth-child(1) {
+width: 20px;
+
+}
+
+/* the second */
+td:nth-child(2) {
+width: 250px;
+
+}
+
+/* the third */
+td:nth-child(3) {
+width: 250px;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* tbody tr:nth-child(odd) {
+    background-color: #f3f8ff;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #deecff;
+  }
+  
+  tbody tr {
+    background-color: white;
+  } */
+  
+  table {
+    background-color: white;
+    min-width: 200px;
+   
+  }
+.form_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+
+}
+/* .form {
+    color: white;
+    min-width: 300px;  
+  }
+
+.input{
+    background-color: rgb(136, 136, 135);
+    text-align: center;
+    color: white; 
+}  */
+.patch_table_container {
+    display: flex;
+    flex-direction: column;
+     
+    align-items: center;
+    justify-content: center; 
+}
+
+
+
+.header {
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(36, 123, 160);
+    color: white;
+
+}
+
+.num_col {
+    font-weight: bold;
+    background-color: rgb(36, 123, 160);
+    text-align: center;   
+    padding: 5px;
+    color: white;
+}
+
+.check {
+    background-color: rgb(136, 136, 135);
+    text-align: center;
+    color: white;
+}
+
+/* .input_cell {
+    background-color: rgb(136, 136, 135);
+    text-align: center;
+    color: white; 
+} */
+
+.submit_cont {
+    display: flex;
+    justify-content: center;
+    padding:20px;
+    
+}
+
+.submit  {
+    display: block;
+    color: white;
+    background-color: rgb(36, 123, 160);
+    text-align: center;
+    padding: 7px 7px;
+    text-decoration: none;
+    width: 20%
+    
+    }
+
+.submit:hover:not(.active) {
+    background-color: rgb(72, 147, 179);
+    }
+.text_cont {
+    display: flex;
+    margin: auto;
+    }
+.text {
+    
+}

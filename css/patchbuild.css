@@ -1,0 +1,31 @@
+body {
+  background-color: grey;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse; 
+  padding: 10px;
+  margin: auto;
+  width: 80%;
+
+}
+
+td, th  {
+  border: 1px solid #dddddd;
+  text-align: center;
+}
+
+.style0 {
+  background-color: grey;
+}
+
+.style1{
+  background-color: #ffbf00;
+  color:white;
+}
+
+.style2{
+  background-color:green;
+  color:white;
+}

@@ -1,0 +1,108 @@
+body {
+    background-color: rgb(80, 81, 79);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 550;  
+}
+
+#content {
+ display: flex;
+ margin: 0 auto;
+ flex-direction: column;
+ padding-top: 17%;
+ align-content: center;
+}
+
+input[type=text] {
+    padding-top: 5px;
+    padding-bottom: 5px ;
+    border: hidden;
+    display: flex;
+    margin: auto;
+    background-color: none;
+    color: white;
+    font-weight: normal;
+    text-align: center;
+    width: 300px;
+    background-color: rgb(136, 136, 135);
+    border-radius: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing: border-box;
+   
+  }
+  
+  input[type=password], select {
+    padding-top: 7px;
+    padding-bottom: 7px ;
+    border: hidden;
+    display: flex;
+    margin: auto;
+    background-color: none;
+    color: white;
+    font-weight: normal;
+    text-align: center;
+    width: 300px;
+    background-color: rgb(136, 136, 135);
+    border-radius: 0;
+
+    box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing: border-box;
+   
+  }
+    
+  input[type=submit] {
+    background-color: rgb(36, 123, 160);
+    color: white;
+    padding: 13px 16px;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 0;
+    border-radius: 0;
+    -webkit-appearance: none;
+   
+  }
+  input[type=submit]:hover {
+    background-color: rgb(72, 147, 179);
+    border-radius: 0;
+    border-radius: 0;
+    -webkit-appearance: none;
+  }
+ 
+
+form {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 17px;
+}
+
+h1, h2, h3, h4 {
+    color: white;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 17px;
+}
+
+label {
+  color: white;
+  margin: auto;
+  padding-top: 17px;
+  padding-bottom: 7px;
+  
+}
+
+.g-recaptcha {
+  display: flex;
+  margin: 0 auto;
+  padding: 17px;
+  align-content: center;
+
+} 

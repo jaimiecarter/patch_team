@@ -1,0 +1,72 @@
+@media screen and (orientation: portrait) {
+  #hide {
+      display: none;
+  }
+}
+    .tbl_container {
+    width: 100%;
+    padding-top: 20px;
+}
+
+caption {
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-shadow: 1px, 1px, 1px, black;
+    font-weight: bold;
+}
+
+
+table {
+    background-color:white;
+    margin: auto;
+}
+
+.header {
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(36, 123, 160);
+    color: white;
+
+}
+
+.delete{
+    background-color: rgb(36, 123, 160);
+    color: white;
+    padding: 13px;
+}
+
+.num_col {
+    font-weight: bold;
+    background-color: rgb(36, 123, 160);
+    text-align: center;   
+    padding: 5px;
+    color: white;
+   
+}
+
+.cell {
+    background-color: rgb(136, 136, 135);
+    text-align: center;
+    color: white;
+    padding: 7px;
+
+}
+
+.submit a {
+    display: block;
+    color: white;
+    background-color: rgb(36, 123, 160);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+
+.submit a:hover:not(.active) {
+    background-color: rgb(72, 147, 179);
+    }
+
+.active {
+    background-color: rgb(36, 123, 160);
+    }
+    
