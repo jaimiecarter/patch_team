@@ -26,9 +26,6 @@
 </head>
 
 <body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TNJ5PZG" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
 
   <ul class="topnav" id="ul">
     <li><a id="select" href="../pages/select.php">Select</a></li>

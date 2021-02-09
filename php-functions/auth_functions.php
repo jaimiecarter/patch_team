@@ -31,8 +31,7 @@ function log_in_admin() {
 
   // Performs all actions necessary to log out an admin
   function log_out_admin() {
-    //unset($_SESSION['id']);
-   // unset($_SESSION['username']);
+
     session_destroy(); // optional: destroys the whole session
     setcookie('token', '', time()-1, "/");
     return true;
@@ -45,14 +44,7 @@ function log_in_admin() {
   // on its own in other contexts (e.g. display one link if an admin
   // is logged in and display another link if they are not)
   function is_logged_in() {
-    // $cookie_token = $_COOKIE['token'];
-    // $token = $frm_db['token'];
-    // if($cookie_token === $token){
-    // session_regenerate_id();
-    // $_SESSION['id'] = $frm_db['id'];
-    // $_SESSION['username'] = $frm_db['username'];
-    // return true;
-    // }
+
     return isset($_SESSION['id']);
   }
 
